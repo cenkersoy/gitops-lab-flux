@@ -3,7 +3,7 @@ apiVersion: image.toolkit.fluxcd.io/v1beta1
 kind: ImageUpdateAutomation
 metadata:
   name: nginxhello
-  namespace: flux-system
+  namespace: defaut
 spec:
   git:
     checkout:
